@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Student details</title>
+    <style>
+        h3,
+        select,
+        a,
+        table,
+        input[type=date] {
+            color: blue;
+            text-decoration: none;
+        }
+
+        .blood {
+            color: red;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 10px;
+        }
+
+        th,
+        td {
+            padding: 12px;
+            text-align: center;
+        }
+
+        th {
+
+            background-color: yellow;
+        }
+
+        td {
+            background-color: rgba(109, 108, 105, 0.577);
+
+        }
+    </style>
+</head>
+
+<body>
+    <h3>Student portfolio</h3>
+    <ol>
+        <li><input type="text" placeholder="Student Name"></li>
+        <br>
+        <li><input type="text" placeholder="Father Name"></li>
+        <br>
+        <li><input type="text" placeholder="Mother Name"></li>
+        <br>
+        <li>Date of Birth <input type="date"></li>
+        <br>
+        <li>Gender
+            <select name="Gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="Others">Others</option>
+            </select>
+        </li>
+        <br>
+        <li>Gender
+            <label>
+                <input type="radio" value="male" name="Gender">Male
+            </label>
+            <label>
+                <input type="radio" value="female" name="Gender">Female
+            </label>
+            <br>
+            <br>
+        </li>
+        <li>Which is your favorite color
+            <br>
+            <br>
+            <label>
+                <input type="checkbox" value="carrom" name="Game">Carrom
+            </label>
+            <label>
+                <input type="checkbox" value="chess" name="Game">Chess
+            </label>
+            <br>
+            <br>
+        </li>
+        <br>
+        <li>
+            <table>
+                <thead>
+                    <caption>
+                        Student Info
+                    </caption>
+                    <tr>
+                        <th>Std Name</th>
+                        <th>Blood Group</th>
+                        <th>Qualification</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Nirmal</td>
+                        <td class="blood">A+ve</td>
+                        <td>BE.Mechanical engineering</td>
+                    </tr>
+                    <tr>
+                        <td>Mahesh</td>
+                        <td class="blood">A1+ve</td>
+                        <td>BE.Computer science engineering</td>
+                    </tr>
+                </tbody>
+            </table>
+        </li>
+        <br>
+        <br>
+
+        <li>Feedback</li>
+        <textarea name="feedback" placeholder="please give your valuable feeddback" rows="5">feedback
+        </textarea>
+        <br>
+        <br>
+        <li>
+            <button><a href="nirmal.html" target="-bkank">Submit</a></button>
+        </li>
+        <br>
+        <br>
+        <!-- <label for="1">
+        <li><input type="radio" value="Male" id="1">Male
+            </label>
+            <label for="2">
+                <input type="radio" value="female" id="2">FeMale
+        </li>
+        </label> -->
+        <li> <input type="submit" value="Pay Now"></li>
+    </ol>
+</body>
+
+</html>
